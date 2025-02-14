@@ -7,7 +7,7 @@ function main() {
         const fileResult = solvePuzzle(numbersFromFile);
         console.log('Result from file:');
         console.log('The chain is:', fileResult.chain);
-        console.log('The length of the chain is:', fileResult.length, 'numbers');
+        console.log('The length of the chain is:', fileResult.length, 'numbers or', fileResult.chain.length, 'characters');
     } catch (error) {
         console.error('Error:', error);
     }
